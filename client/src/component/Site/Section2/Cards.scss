@@ -1,0 +1,110 @@
+.common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    #icon1{
+    font-size: 65px;
+    color: #43ba7f;
+}
+    &__one{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        &__card1{
+            width: 650px;
+            height: 200px;
+            border: solid;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;            border: none;
+       border-radius: 7px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-between;
+       padding: 0 50px;
+       &__icon{
+
+       }
+       &__text{
+        text-align: start;
+        width: 400px;
+       }
+        }
+        &__card2{
+            width: 650px;
+            height: 200px;
+            border: solid;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;            border: none;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+        &__card3{
+            width: 650px;
+            height: 200px;
+            border: solid;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;            border: none;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+    }
+    &__two{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        &__card1{
+            width: 650px;
+            height: 200px;
+            border: solid;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;            border: none;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+        &__card2{
+            width: 650px;
+            height: 200px;
+            border: solid;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;            border: none;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+
+        }
+        &__card3{
+            width: 650px;
+            height: 200px;
+            border: solid;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;        border: none;
+            border-radius: 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+
+        }
+    }
+}

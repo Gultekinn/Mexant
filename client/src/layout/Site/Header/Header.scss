@@ -1,0 +1,66 @@
+.navbar{
+    // background-image: url(../Header/image/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 110px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        width: 100%;
+        overflow: hidden;
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        &__img{
+            width: 100%;
+            overflow: hidden;
+
+        }
+    }
+    &__left{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 40px;
+            
+            list-style: none;
+
+            #li{
+                font-size: 14px;
+                text-decoration: none;
+                list-style: none;
+                color: white;
+                cursor: pointer;
+
+            }
+            #li:hover{
+                color: #ff511a;
+            }
+            button{
+                font-size: 14px;
+    color: #fff;
+    background-color: #43ba7f;
+    padding: 10px 20px !important;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    height: auto;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    border: none;
+            }
+        }
+    }
+}
