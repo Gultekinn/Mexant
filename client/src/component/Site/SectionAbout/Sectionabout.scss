@@ -1,0 +1,28 @@
+.div__text{
+    margin-top: 120px;
+    h6{
+        color: red;
+        font-weight: 900;
+    }
+}
+
+.common{
+    &__table{
+        &__button{
+            display: flex;
+            gap: 60px;
+            button{
+               width: 120px;
+            height: 40px;
+            border: none;
+            background-color: transparent;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+           font-weight: 700;
+        }
+           
+        }
+        &__list{
+            margin-top: 50px;
+        }
+    }
+}
