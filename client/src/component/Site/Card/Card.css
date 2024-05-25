@@ -1,0 +1,30 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.common {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+.common__cardss {
+  width: 350px;
+  height: 450px;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 10px;
+  text-align: start;
+}
+.common__cardss h2 {
+  padding: 10px;
+}
+.common__cardss span {
+  color: red;
+}
+.common__cardss__box {
+  margin-left: 50px;
+}/*# sourceMappingURL=Card.css.map */

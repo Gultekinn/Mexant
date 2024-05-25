@@ -1,0 +1,23 @@
+.div__text {
+  margin-top: 120px;
+}
+.div__text h6 {
+  color: red;
+  font-weight: 900;
+}
+
+.common__table__button {
+  display: flex;
+  gap: 60px;
+}
+.common__table__button button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  font-weight: 700;
+}
+.common__table__list {
+  margin-top: 50px;
+}/*# sourceMappingURL=Sectionabout.css.map */

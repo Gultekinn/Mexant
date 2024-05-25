@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../Header/Header.scss"
-
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 const Header = () => {
   return (
     <>
@@ -18,7 +19,10 @@ const Header = () => {
           <li><Link id='li' to="services">Services</Link></li>
           <li><Link id='li' to="pages">Pages</Link></li>
           <li><Link id='li' to="testimonials">Testimonials</Link></li>
-       <li><Link id='li'><button>Contact Support</button></Link></li>
+<li id="li"><Link to="favorite"><FavoriteBorderRoundedIcon/></Link></li>  
+<li id="li"><Link to="basket"><ShoppingCartIcon/></Link></li>
+     <li><Link id='li'><button>Contact Support</button></Link></li>
+
         </ul>
       </div>
       </div>  

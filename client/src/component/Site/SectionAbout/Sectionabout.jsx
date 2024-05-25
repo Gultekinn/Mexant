@@ -51,6 +51,13 @@ const Sectionabout = () => {
 
 
 
+<div className="common__secon__text">
+  
+</div>
+
+
+
+
 
 </div>
 
